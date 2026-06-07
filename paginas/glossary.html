@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombia 5.0 - Glosario</title>
+    <style>
+        :root {
+            --color-principal: #0056b3;
+            --color-secundario: #28a745;
+            --color-fondo: #f7f6da;
+            --color-texto: #333333;
+            --color-tarjeta: #ffffff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--color-fondo);
+            color: var(--color-texto);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        header p {
+            color: #666;
+            margin-top: 5px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--color-principal);
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--color-secundario);
+        }
+
+        main {
+            width: 100%;
+            max-width: 900px;
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--color-principal);
+            margin-top: 30px;
+            margin-bottom: 25px;
+        }
+
+        .contenedor-tabla {
+            width: 100%;
+            overflow-x: auto; 
+            background-color: var(--color-tarjeta);
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+        }
+
+        .tabla-glosario {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .tabla-glosario th, .tabla-glosario td {
+            padding: 14px 18px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .tabla-glosario th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #222;
+            border-bottom: 2px solid #ddd;
+            text-align: left;
+        }
+
+        .tabla-glosario tbody tr:nth-child(even) {
+            background-color: #fdfdfd;
+        }
+
+        .tabla-glosario tbody tr:hover {
+            background-color: #f1f5f9;
+        }
+
+        .tabla-glosario td strong {
+            color: var(--color-principal);
+            font-size: 1.05em;
+        }
+        
+        footer {
+            width: 100%;
+            max-width: 900px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Evento Colombia 5.0</h1>
+        <p>Sitio Informativo Bilingüe</p>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="conferences.html">Conferencias</a></li>
+                <li><a href="glossary.html">Glosario</a></li>
+                <li><a href="etics.html">Ética</a></li>
+                <li><a href="conclusions.html">Conclusiones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <h2>Glosario Técnico</h2>
+        
+        <div class="contenedor-tabla">
+            <table class="tabla-glosario">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Inglés</th>
+                        <th style="width: 25%;">Español</th>
+                        <th style="width: 50%;">Definición</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>1. Accessibility</strong></td>
+                        <td>Accesibilidad</td>
+                        <td>Diseño de productos digitales para que puedan ser usados por cualquier persona, incluyendo aquellas con discapacidades.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2. Adaptability</strong></td>
+                        <td>Adaptabilidad</td>
+                        <td>Capacidad de un profesional para ajustarse rápidamente a los cambios y nuevas tecnologías del mercado laboral.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>3. Assets</strong></td>
+                        <td>Recursos Digitales</td>
+                        <td>Archivos individuales como imágenes, audios o modelos 3D que forman parte de un proyecto de software o videojuego.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>4. Backend</strong></td>
+                        <td>Desarrollo del Lado del Servidor</td>
+                        <td>Capa interna de una aplicación encargada de la lógica, la seguridad y la gestión de la base de datos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>5. Cloud Computing</strong></td>
+                        <td>Computación en la Nube</td>
+                        <td>Servicios informáticos que se ofrecen a través de Internet, como el almacenamiento de datos y servidores remotos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>6. Code</strong></td>
+                        <td>Código</td>
+                        <td>Conjunto de instrucciones escritas en un lenguaje de programación que una computadora puede ejecutar.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>7. Component</strong></td>
+                        <td>Componente</td>
+                        <td>Elemento de diseño o código reutilizable dentro de una interfaz, como un botón o una barra de navegación.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>8. Copyright</strong></td>
+                        <td>Derechos de Autor</td>
+                        <td>Normas legales que protegen la propiedad intelectual y las creaciones de los desarrolladores y diseñadores.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>9. Data Integrity</strong></td>
+                        <td>Integridad de Datos</td>
+                        <td>Precisión, consistencia y confiabilidad de la información almacenada en una base de datos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>10. Database</strong></td>
+                        <td>Base de Datos</td>
+                        <td>Sistema organizado para almacenar, gestionar y recuperar grandes volúmenes de información de forma eficiente.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>11. Deployment</strong></td>
+                        <td>Despliegue</td>
+                        <td>Proceso de publicar una aplicación o sitio web en un servidor de producción para que el público pueda usarlo.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>12. Ethics</strong></td>
+                        <td>Ética</td>
+                        <td>Principios morales que guían el comportamiento responsable en el uso de la tecnología y los datos de usuarios.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>13. Figma</strong></td>
+                        <td>Figma</td>
+                        <td>Herramienta en la nube utilizada para diseñar prototipos y sistemas de interfaces gráficas de forma colaborativa.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>14. Frontend</strong></td>
+                        <td>Desarrollo del Lado del Cliente</td>
+                        <td>Parte visual e interactiva de un sitio web con la que el usuario interactúa directamente.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>15. Gameplay</strong></td>
+                        <td>Jugabilidad</td>
+                        <td>Conjunto de reglas, mecánicas y experiencias de interacción de un usuario dentro de un videojuego.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>16. HTML</strong></td>
+                        <td>HyperText Markup Language</td>
+                        <td>Lenguaje de marcado estándar utilizado para estructurar el contenido de las páginas web.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>17. Innovation</strong></td>
+                        <td>Innovación</td>
+                        <td>Creación o mejora de productos, procesos y servicios mediante la aplicación de nuevas ideas y tecnologías.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>18. Interface System</strong></td>
+                        <td>Sistema de Interfaces</td>
+                        <td>Conjunto lógico y estructurado de componentes visuales que mantienen la consistencia en una plataforma.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>19. Layout</strong></td>
+                        <td>Disposición</td>
+                        <td>Estructura o distribución física en la que se organizan los elementos visuales dentro de una pantalla.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>20. Mechanics</strong></td>
+                        <td>Mecánicas</td>
+                        <td>Reglas y acciones que definen cómo funciona el sistema de juego y qué puede hacer el jugador.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>21. Multimedia</strong></td>
+                        <td>Multimedia</td>
+                        <td>Combinación de múltiples medios de expresión como textos, imágenes, videos y audios para transmitir información.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>22. Networking</strong></td>
+                        <td>Red de Contactos</td>
+                        <td>Construcción de relaciones profesionales para descubrir oportunidades laborales y colaboraciones en la industria.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>23. Prototyping</strong></td>
+                        <td>Prototipado</td>
+                        <td>Creación de modelos preliminares o bocetos interactivos de una aplicación para probar su funcionamiento antes de programarla.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>24. Relational Model</strong></td>
+                        <td>Modelo Relacional</td>
+                        <td>Enfoque de organización de bases de datos que organiza la información en tablas compuestas por filas y columnas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>25. Software</strong></td>
+                        <td>Programa Informático</td>
+                        <td>Componentes lógicos e intangibles de un sistema informático que permiten realizar tareas específicas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>26. Soft Skills</strong></td>
+                        <td>Habilidades Blandas</td>
+                        <td>Atributos personales como el trabajo en equipo, la comunicación y la empatía, altamente valorados por las empresas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>27. UI</strong></td>
+                        <td>User Interface / Interfaz de Usuario</td>
+                        <td>Entorno visual y gráfico que permite la interacción directa entre una persona y un dispositivo o programa.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>28. UX</strong></td>
+                        <td>User Experience / Experiencia de Usuario</td>
+                        <td>Sensación, percepción y grado de satisfacción que experimenta una persona al usar un producto digital.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>29. Visual Hierarchy</strong></td>
+                        <td>Jerarquía Visual</td>
+                        <td>Técnica de diseño que consiste en dar mayor importancia a ciertos elementos para guiar de manera intuitiva el ojo del usuario.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>30. Web Development</strong></td>
+                        <td>Desarrollo Web</td>
+                        <td>Proceso técnico que involucra la creación, diseño, programación y mantenimiento de sitios y aplicaciones de internet.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desarrollado por Angy Estefania Cifuentes Sánchez | Aprendiz SENA estudiante de ADSO</p>
+         <p>&copy;references:https://gemini.google.com/app?hl=es</p>
+        <p>Centro de Manufactura en Textil y Cuero - Regional Distrito Capital</p>
+    </footer>
+
+</body>
+</html> 
